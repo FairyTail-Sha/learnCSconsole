@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learningCSharp_Console", "learningCSharp_Console\learningCSharp_Console.csproj", "{BA35E246-BE5F-4529-9BC0-26710FC30A6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA35E246-BE5F-4529-9BC0-26710FC30A6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA35E246-BE5F-4529-9BC0-26710FC30A6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA35E246-BE5F-4529-9BC0-26710FC30A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA35E246-BE5F-4529-9BC0-26710FC30A6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99AC87B0-3C08-4452-89FB-59EE90F77246}
+	EndGlobalSection
+EndGlobal
