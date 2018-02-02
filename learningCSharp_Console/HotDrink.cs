@@ -2,6 +2,12 @@
 
 namespace learningCSharp_Console
 {
+    interface ICup
+    {
+        //属性 Color Volume
+        void Refill();
+        void Wash();
+    }
     abstract class  HotDrink
     {
         protected double Milk;
@@ -10,10 +16,7 @@ namespace learningCSharp_Console
         public abstract void AddMilk(double block);
         public abstract void AddSuger(double spoon);
     }
-}
 
-namespace learningCSharp_Console
-{
     class CupOfCoffee : HotDrink,ICup
     {
 
