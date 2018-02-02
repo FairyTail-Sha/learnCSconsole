@@ -7,7 +7,6 @@ namespace TimeTable
         public readonly int Year;
         public readonly int Mouth;
         public readonly int Days;
-
         //月份天数
         int[,] mouth = new int[2, 12] {
             {1 , 2, 3, 4, 5, 6, 7, 8, 9,10,11,12},
@@ -99,7 +98,6 @@ namespace TimeTable
         /// </summary>
         public void ShowCalender()
         {
-
             int k = 15;
             MyTime Start, End, Mid;
             string big = "big";
@@ -129,12 +127,10 @@ namespace TimeTable
                     isBig = !isBig;
                     k = 15;
                 }
-
                 if (Mid.Year == 2019)
                     break;
             }
         }
-
         private MyTime NextDay(MyTime taday)
         {
             if (taday.Days + 1 > taday.mouth[1, taday.Mouth - 1])
@@ -152,9 +148,6 @@ namespace TimeTable
             {
                 return new MyTime(taday.Year, taday.Mouth, taday.Days + 1);
             }
-
-
         }
-
     }
 }
